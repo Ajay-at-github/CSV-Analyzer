@@ -12,3 +12,6 @@ python-dotenv
 faiss-cpu
 tiktoken
 tabulate
+sentence-transformers
+transformers
+torch
