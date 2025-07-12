@@ -1,0 +1,14 @@
+streamlit
+langchain
+groq
+langchain_groq
+langchain-experimental
+langchain-core
+langchain-community
+pandas
+openai
+tqdm
+python-dotenv
+faiss-cpu
+tiktoken
+tabulate
