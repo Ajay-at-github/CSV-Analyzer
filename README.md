@@ -33,6 +33,9 @@ streamlit run app.py
 ## Output
 ![App UI](assets/image.png)
 
+##Try Live Demo
+🔗 https://analyze-csv.streamlit.app/
+
 ## Feedback and Contributions
 If you have any feedback, suggestions, or issues related to CSV-ANALYZER, please open an issue on the GitHub repository. Contributions are also welcome! If you would like to contribute to CSV-ANALYZER, please follow the guidelines outlined in the Contribution Guidelines.
 
