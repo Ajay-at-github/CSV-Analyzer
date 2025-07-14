@@ -33,7 +33,7 @@ streamlit run app.py
 ## Output
 ![App UI](assets/image.png)
 
-##Try Live Demo
+## Try Live Demo
 🔗 https://analyze-csv.streamlit.app/
 
 ## Feedback and Contributions
