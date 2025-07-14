@@ -27,7 +27,7 @@ def main():
     user_api_key = os.environ.get("GROQ_API_KEY")
 
     if user_api_key:
-        st.success("API key loaded from .env", icon="🚀")
+        st.success("Ready to go! Pick a method and type your question.")
     else:
         user_api_key = st.sidebar.text_input(
             label="#### Enter Groq API key 👇",
