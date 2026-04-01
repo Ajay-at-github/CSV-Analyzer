@@ -3,7 +3,7 @@ import os, tempfile
 from langchain_groq import ChatGroq
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import CSVLoader
-from langchain.chains.summarize import load_summarize_chain
+from langchain.chains.combine_documents import load_summarize_chain
 
 def summary(model_name, temperature, top_p, user_api_key):
     st.write("# Summary of CSV")
