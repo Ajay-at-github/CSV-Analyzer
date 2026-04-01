@@ -27,7 +27,7 @@ def summary(model_name, temperature, top_p, user_api_key):
         os.remove(tmp_file_path)
         gen_sum = st.button("Generate Summary")
         if gen_sum:
-            llm = ChatGroq(model_name=model_name, temperature=temperature, groq_api_key=user_api_key)
+            llm = ChatGroq(model_name=model_name, temperature=temperature, top_p=top_p, groq_api_key=user_api_key)
             chain = load_summarize_chain(
                 llm=llm,
                 chain_type="map_reduce",
