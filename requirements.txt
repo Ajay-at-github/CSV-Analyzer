@@ -15,3 +15,5 @@ tabulate
 sentence-transformers
 transformers
 torch
+langchain-text-splitters
+langchain-groq
