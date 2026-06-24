@@ -17,8 +17,8 @@ To run the CSV-ANALYZER, follow these steps:
 2. Navigate to the project directory.
 
 ```bash
-git clone https://github.com/Safiullah-Rahu/CSV-AI.git
-cd csv-ai
+git clone https://github.com/Ajay-at-github/CSV-Analyzer.git
+cd csv-analyzer
 ```
 Install the required packages:
 
