@@ -97,31 +97,12 @@ def main():
 
     api_key, model_name, uploaded_file = render_sidebar()
 
-    tab_chat, tab_summary = st.tabs(
-        [
-            "💬 Chat with CSV",
-            "📝 Summarize CSV",
-        ]
+    chat(
+        temperature=TEMPERATURE,
+        model_name=model_name,
+        user_api_key=api_key,
+        uploaded_file=uploaded_file,
     )
-
-    with tab_chat:
-
-        chat(
-            temperature=TEMPERATURE,
-            model_name=model_name,
-            user_api_key=api_key,
-            uploaded_file=uploaded_file,
-        )
-
-    with tab_summary:
-
-        summary(
-            model_name=model_name,
-            temperature=TEMPERATURE,
-            top_p=TOP_P,
-            user_api_key=api_key,
-            uploaded_file=uploaded_file,
-        )
 
 
 if __name__ == "__main__":
