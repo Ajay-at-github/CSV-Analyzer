@@ -3,7 +3,6 @@ import streamlit as st
 from dotenv import load_dotenv
 
 from src.chat import chat
-from src.summary import summary
 
 # -----------------------------------------------------
 # Configuration
