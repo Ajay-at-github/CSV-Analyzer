@@ -132,11 +132,11 @@ def render_sidebar():
 
     api_key = os.getenv("GROQ_API_KEY")
 
-    if not api_key:
-
-        api_key = st.sidebar.text_input(
-            "#### Enter Groq API Key",
-            type="password",
+    if user_api_key:
+        st.success("API key loaded from .env", icon="🚀")
+    else:
+        user_api_key = st.sidebar.text_input(
+            label="#### Enter Groq API key 👇",
             placeholder="Paste your Groq API key",
         )
 

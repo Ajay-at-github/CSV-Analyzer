@@ -17,8 +17,8 @@ To run the CSV-ANALYZER, follow these steps:
 2. Navigate to the project directory.
 
 ```bash
-git clone https://github.com/Safiullah-Rahu/CSV-AI.git
-cd csv-ai
+git clone https://github.com/Ajay-at-github/CSV-Analyzer.git
+cd csv-analyzer
 ```
 Install the required packages:
 
@@ -32,6 +32,9 @@ streamlit run app.py
 
 ## Output
 ![App UI](assets/image.png)
+
+## Try Live Demo
+🔗 https://analyze-csv.streamlit.app/
 
 ## Feedback and Contributions
 If you have any feedback, suggestions, or issues related to CSV-ANALYZER, please open an issue on the GitHub repository. Contributions are also welcome! If you would like to contribute to CSV-ANALYZER, please follow the guidelines outlined in the Contribution Guidelines.
